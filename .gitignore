@@ -1,0 +1,32 @@
+# Build outputs
+target/
+**/bin/
+**/obj/
+**/TestResults/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.nuspec
+**/project.lock.json
+**/project.assets.json
+**/packages.lock.json
+.nuget/
+
+# Rider/VS Code
+.idea/
+.vscode/
+.vs/
+
+# Coverage
+*.coverage
+*.coveragexml
+**/.vsmdi
+
+# Generated
+debug/
+release/
+*.log
